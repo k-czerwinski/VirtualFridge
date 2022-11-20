@@ -1,6 +1,6 @@
 ﻿namespace VirtualFridge
 {
-    partial class Form1
+    partial class VirtualFridgeForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VirtualFridgeForm));
             this.leftPanel = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnShowFridgeContent = new System.Windows.Forms.Button();
@@ -102,7 +102,6 @@
             this.picBoxLogo.TabIndex = 0;
             this.picBoxLogo.TabStop = false;
             this.picBoxLogo.UseWaitCursor = true;
-            this.picBoxLogo.Click += new System.EventHandler(this.picBoxLogo_Click);
             // 
             // pnlMainWindow
             // 
@@ -125,7 +124,6 @@
             this.addProductUserControl1.Name = "addProductUserControl1";
             this.addProductUserControl1.Size = new System.Drawing.Size(550, 450);
             this.addProductUserControl1.TabIndex = 0;
-            this.addProductUserControl1.Load += new System.EventHandler(this.addProductUserControl1_Load);
             // 
             // showProductsUserControl1
             // 
@@ -135,7 +133,7 @@
             this.showProductsUserControl1.Size = new System.Drawing.Size(550, 450);
             this.showProductsUserControl1.TabIndex = 1;
             // 
-            // Form1
+            // VirtualFridgeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -144,9 +142,9 @@
             this.Controls.Add(this.leftPanel);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "VirtualFridgeForm";
+            this.Text = "Virtual Fridge";
+            this.Load += new System.EventHandler(this.VirtualFridge_Load);
             this.leftPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).EndInit();
             this.pnlMainWindow.ResumeLayout(false);

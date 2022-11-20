@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using VirtualFridge.Model;
+﻿using VirtualFridge.Model;
 
 namespace VirtualFridge.UserControls
 {
@@ -20,20 +11,8 @@ namespace VirtualFridge.UserControls
             calendarExpiryDate.MaxSelectionCount = 1;
         }
 
-        private void txtBoxProductName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void btnAddProduct_Click(object sender, EventArgs e) => AddProduct();
 
-
-        private void AddProductUserControl_Load(object sender, EventArgs e)
-        {
-
-        }
         private void AddProduct()
         {
             if ( !ProductParametersValidator.ValidateProductName(txtBoxProductName.Text))
@@ -67,6 +46,11 @@ namespace VirtualFridge.UserControls
             txtBoxProductName.Text = "";
             txtBoxProteinPer100Gram.Text = "";
             calendarExpiryDate.SetDate(DateTime.Now);
+        }
+
+        private void AddProductUserControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

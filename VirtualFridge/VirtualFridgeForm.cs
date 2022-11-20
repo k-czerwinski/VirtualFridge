@@ -2,13 +2,12 @@ using VirtualFridge.UserControls;
 
 namespace VirtualFridge
 {
-    public partial class Form1 : Form
+    public partial class VirtualFridgeForm : Form
     {
 
-        public Form1()
+        public VirtualFridgeForm()
         {
             InitializeComponent();
-
         }
 
         private void AddControls()
@@ -27,16 +26,8 @@ namespace VirtualFridge
             pnlMainWindow.Controls["ShowProductsUserControl"].Refresh();
             pnlMainWindow.Controls["ShowProductsUserControl"].BringToFront();
         }
-        
-        private void addProductUserControl1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            AddControls();
-        }
+        private void VirtualFridge_Load(object sender, EventArgs e) => AddControls();
 
         private void btnAddProduct_Click(object sender, EventArgs e)
         {
@@ -44,19 +35,6 @@ namespace VirtualFridge
             pnlMainWindow.Controls["AddProductUserControl"].BringToFront();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void picBoxLogo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRemoveProduct_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void btnExit_Click(object sender, EventArgs e) => Application.Exit();
     }
 }

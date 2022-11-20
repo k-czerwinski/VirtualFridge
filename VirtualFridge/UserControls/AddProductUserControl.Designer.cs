@@ -54,7 +54,6 @@
             this.txtBoxProductName.Name = "txtBoxProductName";
             this.txtBoxProductName.Size = new System.Drawing.Size(188, 34);
             this.txtBoxProductName.TabIndex = 1;
-            this.txtBoxProductName.TextChanged += new System.EventHandler(this.txtBoxProductName_TextChanged);
             // 
             // lblProteinPer100Gram
             // 

@@ -16,7 +16,7 @@
             if (!Int32.TryParse(txtproteinPer100Gram, out proteinPer100Gram))
                 return false;    
          
-            if ( proteinPer100Gram < 0 || proteinPer100Gram > 100)
+            if (proteinPer100Gram < 0 || proteinPer100Gram > 100)
                 return false;
             return true;
         }
@@ -27,6 +27,5 @@
                 return false;
             return true;
         }
-
     }
 }

@@ -4,7 +4,6 @@ C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\bin\Debug
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\bin\Debug\net6.0-windows\VirtualFridge.dll
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\bin\Debug\net6.0-windows\VirtualFridge.pdb
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.csproj.AssemblyReference.cache
-C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.Form1.resources
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.csproj.GenerateResource.cache
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.AssemblyInfoInputs.cache
@@ -18,3 +17,4 @@ C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.Properties.Resources.resources
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.UserControls.AddProductUserControl.resources
 C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.UserControls.ShowProductsUserControl.resources
+C:\Users\Krzysiek\Desktop\programowanie\C#\VirtualFridge\VirtualFridge\obj\Debug\net6.0-windows\VirtualFridge.VirtualFridgeForm.resources

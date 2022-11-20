@@ -9,13 +9,9 @@
         {
             
         }
-        public static void AddProduct(Product product)
-        {
-            _products.Add(product);
-        }
-        public static void RemoveProduct(Product product)
-        {
-            _products.Remove(product);
-        }
+
+        public static void AddProduct(Product product) => _products.Add(product);
+
+        public static void RemoveProduct(Product product) => _products.Remove(product);
     }
 }

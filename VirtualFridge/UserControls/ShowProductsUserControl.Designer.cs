@@ -51,7 +51,7 @@
             // 
             // fridgeBindingSource
             // 
-            this.fridgeBindingSource.DataSource = typeof(VirtualFridge.Model.Fridge);
+            this.fridgeBindingSource.DataSource = typeof(global::VirtualFridge.Model.Fridge);
             // 
             // listViewProducts
             // 
@@ -68,7 +68,6 @@
             this.listViewProducts.TabIndex = 1;
             this.listViewProducts.UseCompatibleStateImageBehavior = false;
             this.listViewProducts.View = System.Windows.Forms.View.Details;
-            this.listViewProducts.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeaderProductName
             // 
